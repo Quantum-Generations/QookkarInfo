@@ -21,7 +21,7 @@ export default function HeroSection() {
             </h1>
             <p className="text-xl text-white/90 mt-6 leading-relaxed">
               Qookkar bridges passionate home cooks with food lovers, delivering authentic 
-              homemade dishes and quality ready-made items right to your doorstep.
+              homemade dishes right to your doorstep.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Button
