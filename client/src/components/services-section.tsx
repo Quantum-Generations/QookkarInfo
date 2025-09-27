@@ -1,4 +1,4 @@
-import { Home, Package, Truck, Check } from "lucide-react";
+import { Home, Truck, Check } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 export default function ServicesSection() {
@@ -13,17 +13,6 @@ export default function ServicesSection() {
         "Made-to-order freshness"
       ],
       color: "text-primary"
-    },
-    {
-      icon: Package,
-      title: "Ready-Made Items",
-      description: "Convenient pre-prepared meals and snacks that maintain the quality and taste of homemade cooking.",
-      features: [
-        "Quick delivery options",
-        "Preservative-free preparation",
-        "Extended shelf life"
-      ],
-      color: "text-accent"
     },
     {
       icon: Truck,
@@ -46,7 +35,7 @@ export default function ServicesSection() {
             Our Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Discover the perfect blend of homemade authenticity and convenient ready-made options, 
+            Experience authentic homemade cooking with our reliable delivery network, 
             all crafted with love and delivered with care.
           </p>
         </div>
